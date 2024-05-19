@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f83b8ed06e.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+
+    <!--header-->
+
+    <header>
+        <div class="logo">
+            <p><span>Modern</span>Agency</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#presta">Prestation</a></li>
+            <li><a href="#realisation">Réalisation</a></li>
+            <li><a href="#comment_section">Avis</a></li>
+        </ul>
+        
+           <!--menu responsive-->
+    <div class="toggle_menu"></div>
+    </header>
+
+
+    <!--section home-->
+
+    <section id="home">
+        <div class="left">
+            <h4>Bienvenue</h4>
+            <h1>VOTRE SITE PRET SOUS 48H</h1>
+            <p>Des solutions digitales pour votre succès</p>
+            <button><a href="#"><i class="fa-brands fa-whatsapp"></i> Contactez-Nous</a></button>
+        </div>
+        <div class="right">
+            <img src="vr_image/138358595228.png" alt="">
+        </div>
+    </section>
+
+    <!--section QUI SOMME NOUS ? (prestation)-->
+
+    <section id="presta">
+        <h4 class="mini_title">PACK CONCEPTION ...</h4>
+        <h2 class="title">avec notre Vision</h2>
+        <div class="dishes">
+            <div class="dish">
+                <img src="vr_image/138358595228.png" alt="">
+                <p>Basic Pack</p>
+                <h2>399€</h2>
+                <a href="#">Acheter</a>
+            </div>
+            <div class="dish">
+                <img src="vr_image/138358595228.png" alt="">
+                <p>Premium Pack</p>
+                <h2>599€</h2>
+                <a href="#">Acheter</a>
+            </div>
+            <div class="dish">
+                <img src="vr_image/138358595228.png" alt="">
+                <p>Pack Site Sur Mesure (DEVIS)</p>
+                <h2> </h2>
+                <a href="#">Acheter</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Réalisation-->
+
+    <section id="realisation">
+        <h4 class="mini_title">Nos Réalisation Antérieur</h4>
+        <h2 class="title">POURQUOI NOUS ?</h2>
+        <div class="real">
+            <div class="left">
+                <img src="vr_image/f7e63073fb499b3cf53d40b1dbf507ec.jpeg" alt="">
+            </div>
+            <div class="right">
+                <h3>C'est nous les meilleurs</h3>
+                <p>Alors choisisser la qualité<br></p>
+                <p>choisisser les bonnes personnes</p>
+                <button><a href="#">Plus D'information</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- section comments -->
+    
+    <section id="comment_section">
+        <h4 class="mini_title">Commentaires</h4>
+        <h2 class="title"> QU'EST-CE QUE LES GENS DISENT DE NOUS</h2>
+        <div class="comments">
+            <div class="comment">
+                <div>
+                    <img src="vr_image/Logo modern agency.png">
+                    <h4>Kevin Hitten</h4>
+                </div>
+                <p>Son Avis</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <img src="vr_image/Logo modern agency.png">
+                    <h4>Hajj Kimiri</h4>
+                </div>
+                <p>Son Avis</p>
+            </div>
+            <div class="comment">
+                <div>
+                    <img src="vr_image/Logo modern agency.png">
+                    <h4>Jacques</h4>
+                </div>
+                <p>Son Avis</p>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footerContainer">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#">CGV</a></li>
+                    <li><a href="#">MENTIONS LEGALES</a></li>
+                    <li><a href="#">POLITIQUE DE RETOUR</a></li>
+                </ul>
+            </div>
+            <div class="socialIcons">
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+            </div>
+            <hr>
+            <div class="footerBottom">
+                <p>Copyright &copy;2024; Designed by <span class="designer">MIRADA Eliot</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var small_menu = document.querySelector('.toggle_menu')
+        var menu = document.querySelector('.menu')
+
+        small_menu.onclick = function(){
+            small_menu.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+    </script>
+
+</body>
+</html>
